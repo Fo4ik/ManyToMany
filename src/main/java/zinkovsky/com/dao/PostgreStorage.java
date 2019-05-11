@@ -28,7 +28,7 @@ public class PostgreStorage {
     public PostgreStorage() throws SQLException, IOException {
         FileInputStream inputStream = new FileInputStream("password.txt");
         String everything = IOUtils.toString(inputStream);
-        connection = DriverManager.getConnection("jdbc:postgresql://127.0.0.1:5432/testBase", "postgres", everything);
+        connection = DriverManager.getConnection("jdbc:postgresql://127.0.0.1:5432/test", "postgres", everything);
         maybeCreateUsersTable();
         maybeCreateUsersGroupsTable();
         maybeCreateGroupsTable();
