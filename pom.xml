@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>zinkovsky.com</groupId>
-    <artifactId>many-manyL</artifactId>
+    <artifactId>many-many</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
